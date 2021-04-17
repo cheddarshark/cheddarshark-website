@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Contact </title>
+        <link rel = "stylesheet" type = "text/css" href = "../CSS/style.css">
+        <link rel = "shortcut icon" type = "image/png" href = "../favicon.png">
+    </head>
+    <body>
+        <header>
+            <a href = ../homepage/index.html>
+                <img class = "logo" src ="../logov2.png" alt = "logo" width ="150">
+            </a>    
+            <nav>
+                <ul class = "nav_links">
+                    <li><a href = ../film/index.html>Film</a></li>
+                    <li><a href = ../2d/index.html> 2D</a></li>
+                    <li><a href =../3d/index.html> 3D </a></li>
+                    <li><a href =../weeklies/index.html> Weeklies</a></li>
+                    <li><a href =../about/index.html>About </a></li>
+                    <li><a href =../contact/index.html>Contact</a></li>
+                </ul>              
+            </nav>
+        </header>
+        <div class = "container">
+            <form class="my-form" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    </p>
+                <div class="form-group">
+                    <label>Name: </label>
+                    <input type = "text" name = "name" placeholder = "enter name" required>
+                </div>
+                <div class ="form-group">
+                    <label>Email: </label>
+                    <input type = "email" name = "email" placeholder = "something@email.com" required> 
+                </div>
+                <div class ="form-group">
+                    <label>Subject: </label>
+                    <input type = "text" name = "subject" placeholder = "subject" required> 
+                </div>
+                <div class = "form-group">
+                    <label>Message: </label>
+                    <textarea name = "message" placeholder = "say hello, request art, collaboration, etc!" required></textarea>
+                </div>
+                <input class = "button" type ="submit" value = "submit" name = "">
+            </form>
+        </div>
+        
+        <footer id ="main-footer">
+            <p>&copy; 2021 cheddarshark</p>
+        </footer>
+        <br>
+        <div class = "socials">
+            <a target = "_blank" href = "https://www.youtube.com/channel/UChBcn7h-H0IYGwK-XrfStzw"><img src = "../youtube.png" alt = "youtube"></a>
+            <a target = "_blank" href = "https://www.instagram.com/cheddarspork/"><img src = "../instagram.png" alt = "instagram"></a>
+            <a target = "_blank" href = "https://sketchfab.com/cheddarshark"><img src = "../sketchfab.png" alt  ="sketchfab"></a>
+            <a target = "_blank" href = "https://www.deviantart.com/cheddarshark"><img src = "../deviantart.png" alt = "deviantart"></a>
+        </div>
+    </body>
+</html>
