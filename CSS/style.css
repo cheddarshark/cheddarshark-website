@@ -94,8 +94,33 @@ video{
     box-sizing: border-box;
 }
 
+.wrapper0 {
+    float:left;
+    border-radius: 2%;
+    border: 5px white solid;
+    width: 40%;
+    margin: 30px;
+    box-sizing: border-box;
+}
 
-.wrapper {
+.videowrapper0 {
+    position:relative;
+    padding-bottom:56.25%; /*9/16*/
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper0 iframe{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper1 {
     float:right;
     border-radius: 2%;
     border: 5px white solid;
@@ -104,14 +129,14 @@ video{
     box-sizing: border-box;
 }
 
-.videowrapper{
+.videowrapper1{
     position:relative;
     padding-bottom:56.25%; /*9/16*/
     padding-top: 25px;
     height: 0px;
 }
 
-.videowrapper iframe{
+.videowrapper1 iframe{
     position:absolute;
     left: 0px;
     top: 0px;
@@ -353,6 +378,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active  {
     -webkit-box-shadow: 0 0 0 30px var(--orange-color) inset !important;
 }
+
 
 /*Change text in autofill textbox*/
 input:-webkit-autofill {
